@@ -16,9 +16,9 @@ async function postImage({image, description}) {
 	// 	// headers:{'Content-Type': 'multipart/form-data'},
 	// })
 	console.log(process.env.DEV)
-	// const result = await axios.post('http://localhost:4000/user/upload', formData,)
+	const result = await axios.post('http://localhost:4000/user/upload', formData,)
 	 
-	const result = await axios.post('http://ec2-54-147-169-3.compute-1.amazonaws.com:4000/user/upload', formData,)
+	// const result = await axios.post('http://ec2-54-147-169-3.compute-1.amazonaws.com:4000/user/upload', formData,)
 	 
 
 	// console.log(result.data)
